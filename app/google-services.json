@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "806386341867",
+    "firebase_url": "https://marketstockapp-default-rtdb.firebaseio.com",
+    "project_id": "marketstockapp",
+    "storage_bucket": "marketstockapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806386341867:android:2acb0bfbdad261dcb92bae",
+        "android_client_info": {
+          "package_name": "com.example.marketstockapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806386341867-tu6i7jl71b5kk02mro9dv7djvdm2b2lo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqIHLQ7T4Mo_NDB4dU06NwYvd6gl1W9uM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806386341867-tu6i7jl71b5kk02mro9dv7djvdm2b2lo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

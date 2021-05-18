@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainone"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/abb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="50dp"
+        android:text="Buy"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/gbb"
+        app:layout_constraintEnd_toStartOf="@+id/asb"
+        app:layout_constraintStart_toEndOf="@+id/an" />
+
+    <Button
+        android:id="@+id/gbb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="50dp"
+        android:text="Buy"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/tbb"
+        app:layout_constraintEnd_toStartOf="@+id/gsb"
+        app:layout_constraintStart_toEndOf="@+id/gn" />
+
+    <Button
+        android:id="@+id/tbb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="100dp"
+        android:text="Buy"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/ib"
+        app:layout_constraintEnd_toStartOf="@+id/tsb"
+        app:layout_constraintStart_toEndOf="@+id/tn" />
+
+    <TextView
+        android:id="@+id/apple"
+        android:layout_width="82dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:background="#7CB342"
+        android:gravity="center"
+        android:text="@string/aapl"
+        app:layout_constraintBottom_toTopOf="@+id/amazon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app" />
+
+    <TextView
+        android:id="@+id/amazon"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="#7CB342"
+        android:gravity="center"
+        android:text="@string/amzn"
+        app:layout_constraintBottom_toTopOf="@+id/google"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/google"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="#7CB342"
+        android:gravity="center"
+        android:text="@string/googl"
+        app:layout_constraintBottom_toTopOf="@+id/tesla"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tesla"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="100dp"
+        android:background="#7CB342"
+        android:gravity="center"
+        android:text="@string/tsla"
+        app:layout_constraintBottom_toTopOf="@+id/ib"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ib"
+        android:layout_width="177dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="208dp"
+        android:text="@string/information"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="414dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="@string/market_stock_app"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/apn"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:autofillHints=""
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/an"
+        app:layout_constraintStart_toEndOf="@+id/apple"
+        app:layout_constraintTop_toBottomOf="@+id/app"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/an"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:autofillHints=""
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/gn"
+        app:layout_constraintStart_toEndOf="@+id/amazon"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/gn"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:autofillHints=""
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/tn"
+        app:layout_constraintStart_toEndOf="@+id/google"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tn"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="100dp"
+        android:autofillHints=""
+        android:background="#4CAF50"
+        android:ems="10"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#0B0A0A"
+        app:layout_constraintBottom_toTopOf="@+id/ib"
+        app:layout_constraintStart_toEndOf="@+id/tesla"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/apbb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="50dp"
+        android:text="Buy"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/abb"
+        app:layout_constraintEnd_toStartOf="@+id/apsb"
+        app:layout_constraintStart_toEndOf="@+id/apn"
+        app:layout_constraintTop_toBottomOf="@+id/app" />
+
+    <Button
+        android:id="@+id/apsb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="Sell"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/asb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toEndOf="@+id/apbb"
+        app:layout_constraintTop_toBottomOf="@+id/app" />
+
+    <Button
+        android:id="@+id/asb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="Sell"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/gsb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/abb" />
+
+    <Button
+        android:id="@+id/gsb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="Sell"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/tsb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gbb" />
+
+    <Button
+        android:id="@+id/tsb"
+        android:layout_width="97dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="100dp"
+        android:text="Sell"
+        app:backgroundTint="#00ACC1"
+        app:layout_constraintBottom_toTopOf="@+id/ib"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/tbb" />
+
+    <Button
+        android:id="@+id/StockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="88dp"
+        android:text="Check My Stock"
+        android:textColor="#EFEDED"
+        android:textStyle="bold"
+        app:backgroundTint="#00897B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/AboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="284dp"
+        android:layout_marginRight="284dp"
+        android:layout_marginBottom="28dp"
+        android:text="About"
+        android:textColor="#EFEDED"
+        android:textStyle="bold"
+        app:backgroundTint="#00897B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="227dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="28dp"
+        android:background="#F3EFEF"
+        android:gravity="center"
+        android:text="Starting Game Money : 10,000 $"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ib"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
